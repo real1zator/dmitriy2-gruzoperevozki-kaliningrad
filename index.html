@@ -17,6 +17,7 @@ body{background:#09090b;color:#fafafa;font-family:'Manrope',sans-serif;-webkit-f
 .font-playfair{font-family:'Playfair Display',Georgia,serif}
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
 .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;top:-15%;height:130%;will-change:transform}
+@media(max-width:767px){.hero-bg{top:0;height:100%;will-change:auto}}
 .hero-overlay-1{position:absolute;inset:0;background:linear-gradient(to right,rgba(2,6,23,.97) 0%,rgba(2,6,23,.90) 45%,rgba(2,6,23,.35) 100%)}
 .hero-overlay-2{position:absolute;inset:0;background:linear-gradient(to top,rgba(9,9,11,.8) 0%,transparent 50%)}
 .hero-content{position:relative;z-index:10;max-width:80rem;margin:0 auto;padding:6rem 1rem 5rem;width:100%}
